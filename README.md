@@ -5,6 +5,7 @@
 - [x] [Stream](#Stream)
 - [x] [Interface](#Interface)
 - [x] [Comparable Comparator](#Comparable-Comparator)
+- [x] [Optional](#Optional)
 - [ ] Generic Type
 - [ ] Annotation
 
@@ -63,7 +64,9 @@
   - src.test.java.stream
     - StreamTest
 
-Reference : https://stackify.com/streams-guide-java-8/
+Reference
+
+- Stream 실습 참고 : [link](https://stackify.com/streams-guide-java-8/)
 
 ***
 
@@ -129,9 +132,9 @@ Reference : https://stackify.com/streams-guide-java-8/
 ※ NamedDesc, Person, Person2, Person3 : Comparable && Comparator 실습 더미 데이터
 
 - 작업 디렉토리
-  - src.main.java.sort
-    - SortTest
   - src.test.java.sort
+    - SortTest
+  - src.main.java.sort
     - NamedDesc, Person, Person2, Person3
 
 #### Comparable Comparator 의 차이점
@@ -140,3 +143,36 @@ Reference : https://stackify.com/streams-guide-java-8/
 - Comparable 은 객체의 기본 정렬 방식을 결정하지만 Comparator 는 상황에 따라 정렬 방식을 유동적으로 변경할 수 있다.
 - Comparable 의 정렬 기준은 컴파일 시점에 결정나지만 Comparator 는 런타임 중에 정렬 방식을 변경할 수 있다.
     
+### Optional
+
+- OptionalTest
+  - creation
+    - Optional.empty
+    - Optional.of
+    - Optional.ofNullable
+  - isPresent_isEmpty
+  - ifPresent
+  - orElse
+  - orElseGet
+  - orElse vs orElseGet
+  - orElseThrow
+  - get
+  - filter
+  - map
+  - floatMap
+  
+- 작업 디렉토리
+  - src.test.java.optional
+    - OptionalTest
+  - src.main.java.optional
+    - Juice
+  
+※ Juice : Filter 실습 더미 데이터
+
+Reference
+
+- Optional 실습 참고 : [link](https://www.baeldung.com/java-optional)
+- Optional 올바르게 사용하는법 : [link](https://dzone.com/articles/using-optional-correctly-is-not-optional)
+- Optional 올바르게 사용하는법2 : [link](http://homoefficio.github.io/2019/10/03/Java-Optional-%EB%B0%94%EB%A5%B4%EA%B2%8C-%EC%93%B0%EA%B8%B0/)
+
+
