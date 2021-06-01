@@ -6,7 +6,8 @@
 - [x] [Interface](#Interface)
 - [x] [Comparable Comparator](#Comparable-Comparator)
 - [x] [Optional](#Optional)
-- [ ] Generic Type
+- [x] [Generic Type](#Generic-Type)
+- [ ] Enum
 - [ ] Annotation
 
 ## 패키지 구조 & 약간 설명
@@ -142,7 +143,9 @@ Reference
 - Comparator 는 함수형 인터페이스이지만 Comparable 은 그렇지 않다.
 - Comparable 은 객체의 기본 정렬 방식을 결정하지만 Comparator 는 상황에 따라 정렬 방식을 유동적으로 변경할 수 있다.
 - Comparable 의 정렬 기준은 컴파일 시점에 결정나지만 Comparator 는 런타임 중에 정렬 방식을 변경할 수 있다.
-    
+
+***    
+
 ### Optional
 
 - OptionalTest
@@ -175,4 +178,26 @@ Reference
 - Optional 올바르게 사용하는법 : [link](https://dzone.com/articles/using-optional-correctly-is-not-optional)
 - Optional 올바르게 사용하는법2 : [link](http://homoefficio.github.io/2019/10/03/Java-Optional-%EB%B0%94%EB%A5%B4%EA%B2%8C-%EC%93%B0%EA%B8%B0/)
 
+***
 
+### Generic Type
+
+- Example1
+  - Generic 사용 이유
+  - Generic 사용법
+- Example2
+  - 멀티 타입 파라미터
+  - 제네릭 메소드
+- Example3
+  - 제한된 타입 파라미터
+- Example4
+  - 와일드 카드 타입
+    - Class <?>
+    - Class <? extends 상위타입>
+    - Class <? super 하위타입>
+- Example5
+  - 제네릭 타입의 상속과 구현
+  
+Reference
+
+- Generic 실습 참고 : [link](https://www.youtube.com/watch?v=SjlnP1N0R4o&list=PLVsNizTWUw7FPokuK8Cmlt72DQEt7hKZu&index=139)
