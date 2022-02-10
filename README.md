@@ -7,12 +7,17 @@
 - [x] [Comparable Comparator](#Comparable-Comparator)
 - [x] [Optional](#Optional)
 - [x] [Generic Type](#Generic-Type)
+- [x] [First Class Collection](#First-Class-Collection)
+- [ ] Reflection
 - [ ] Enum
 - [ ] Annotation
 
-## 패키지 구조 & 약간 설명
+## 패키지 구조
 
 ### Stream
+
+<details>
+  <summary>자세히</summary>
 
 - StreamTest
   - Creation
@@ -69,9 +74,13 @@ Reference
 
 - Stream 실습 참고 : [link](https://stackify.com/streams-guide-java-8/)
 
-***
+</details>
+
 
 ### Interface
+
+<details>
+  <summary>자세히</summary>
 
 - Example1.java
   - 인터페이스 선언
@@ -116,9 +125,13 @@ Reference
 - 작업 디렉토리
   - src.main.java.itf
     
-***
+</details>
+
     
 ### Comparable Comparator
+
+<details>
+  <summary>자세히</summary>
 
 - SortTest
   - Basic
@@ -144,9 +157,13 @@ Reference
 - Comparable 은 객체의 기본 정렬 방식을 결정하지만 Comparator 는 상황에 따라 정렬 방식을 유동적으로 변경할 수 있다.
 - Comparable 의 정렬 기준은 컴파일 시점에 결정나지만 Comparator 는 런타임 중에 정렬 방식을 변경할 수 있다.
 
-***    
+</details>
+
 
 ### Optional
+
+<details>
+  <summary>자세히</summary>
 
 - OptionalTest
   - creation
@@ -178,9 +195,13 @@ Reference
 - Optional 올바르게 사용하는법 : [link](https://dzone.com/articles/using-optional-correctly-is-not-optional)
 - Optional 올바르게 사용하는법2 : [link](http://homoefficio.github.io/2019/10/03/Java-Optional-%EB%B0%94%EB%A5%B4%EA%B2%8C-%EC%93%B0%EA%B8%B0/)
 
-***
+</details>
+
 
 ### Generic Type
+
+<details>
+  <summary>자세히</summary>
 
 - Example1
   - Generic 사용 이유
@@ -201,3 +222,26 @@ Reference
 Reference
 
 - Generic 실습 참고 : [link](https://www.youtube.com/watch?v=SjlnP1N0R4o&list=PLVsNizTWUw7FPokuK8Cmlt72DQEt7hKZu&index=139)
+
+</details>
+
+
+### First Class Collection
+
+<details>
+  <summary>자세히</summary>
+
+- FirstClassCollection
+  - 일급컬렉션이 무엇인지, 이점
+- NaverBlog
+  - 예제 클래스
+- DaumBlog
+  - 예제 클래스
+
+- 작업 디렉토리
+  - src.test.java.first_class_collection
+    - FirstClassCollectionTest
+  - src.main.java.first_class_collection
+    - FirstClassCollection, NaverBlog, DaumBlog
+
+</details>
